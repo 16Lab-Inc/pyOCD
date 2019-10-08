@@ -80,6 +80,7 @@ from . import target_CY8C64xx
 from . import target_musca_a1
 from . import target_musca_b1
 from . import target_LPC55S69JBD100
+from . import target_AMA3B1KK
 
 ## @brief Dictionary of all builtin targets.
 BUILTIN_TARGETS = {
@@ -158,4 +159,5 @@ BUILTIN_TARGETS = {
           'lpc55s69' : target_LPC55S69JBD100.LPC55S69JBD100,
           'cy8c64xx_cm4_full' : target_CY8C64xx.cy8c64xx_cm4_full,
           'cy8c64xx_cm4_full_flash' : target_CY8C64xx.cy8c64xx_cm4_full_flash,
+          'ama3b1kk' : target_AMA3B1KK.AMA3B1KK,
          }
