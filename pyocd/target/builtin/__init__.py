@@ -94,6 +94,7 @@ from . import target_HC32L110
 from . import target_HC32L13x
 from . import target_HC32L19x
 from . import target_HC32L07x
+from . import target_AMA3B1KK
 
 ## @brief Dictionary of all builtin targets.
 BUILTIN_TARGETS = {
@@ -203,4 +204,5 @@ BUILTIN_TARGETS = {
           'hc32l072' : target_HC32L07x.HC32L072,
           'hc32l073' : target_HC32L07x.HC32L073,
           'hc32f072' : target_HC32L07x.HC32F072,
+          'ama3b1kk' : target_AMA3B1KK.AMA3B1KK,
          }
